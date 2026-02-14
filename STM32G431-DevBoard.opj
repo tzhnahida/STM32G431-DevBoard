@@ -25,32 +25,60 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
+      (DeviceIndex "0"))
+    (Fuse
+      (FullPartName "Fuse.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FUSE.OLB")
+      (DeviceIndex "0"))
+    (FerriteBead
+      (FullPartName "FerriteBead.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FERRITEBEAD.OLB")
+      (DeviceIndex "0"))
+    (SMBJ5V0A
+      (FullPartName "SMBJ5V0A.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SMBJ5V0A.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TYPEC_16PIN
+      (FullPartName "TYPEC_16PIN.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TYPE-C_16PIN.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "F:\Projects\PCB\GitHub\Public\STM32G431-DevBoard\stm32g431-devboard.dsn")
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn")
       (Path "Design Resources"
-         "F:\Projects\PCB\GitHub\Public\STM32G431-DevBoard\stm32g431-devboard.dsn"
-         "G431-DevBoard")
-      (Select "Design Resources"
-         "F:\Projects\PCB\GitHub\Public\STM32G431-DevBoard\stm32g431-devboard.dsn"
-         "G431-DevBoard" "Power-IN"))
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
+         "G431-DevBoard"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 278 0 555"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 587"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1301 28 601")
-        (Scroll "-147 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 28 5 1674 28 609")
+        (Scroll "-90 47")
+        (Zoom "150")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
-      (Page "Power-IN"))))
+      (Page "Power-IN")))
+  (MPSSessionName "27356"))
