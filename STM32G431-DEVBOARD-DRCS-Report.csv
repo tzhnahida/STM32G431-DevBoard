@@ -1,0 +1,19 @@
+
+
+
+
+F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD-DRCS-Report.csv
+
+
+
+
+
+Total number of: DRCS for: '*' [ in , Mode: Occ, MatchCase: No, DESIGN: F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN ] : 1
+
+
+
+
+
+Severity,DRC Type,Description,Detail,Location,Page,Schematic
+
+Warning,Physical,WARNING(ORCAP-2435): Number of pins in footprint 'TYPEC_16PIN' and instance 'U1' does not match.,/U1,G431-DevBoard, Power-IN  (1.20, 0.85),Power-IN,G431-DevBoard\

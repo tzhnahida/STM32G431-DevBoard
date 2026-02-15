@@ -1,0 +1,95 @@
+(ExpressProject "STM32G431-DevBoard"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/16/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\stm32g431-devboard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+      (DeviceIndex "0"))
+    (FerriteBead
+      (FullPartName "FerriteBead.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FERRITEBEAD.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
+      (DeviceIndex "0"))
+    (Inductor
+      (FullPartName "Inductor.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\INDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (TLV62569DBV
+      (FullPartName "TLV62569DBV.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TLV62569DBV.OLB")
+      (DeviceIndex "0"))
+    (Fuse
+      (FullPartName "Fuse.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FUSE.OLB")
+      (DeviceIndex "0"))
+    (SMBJ5V0A
+      (FullPartName "SMBJ5V0A.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SMBJ5V0A.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TYPEC_16PIN
+      (FullPartName "TYPEC_16PIN.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TYPE-C_16PIN.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn")
+      (Path "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
+         "G431-DevBoard")
+      (Select "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
+         "G431-DevBoard" "USB_Power_UART"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 813"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1387 28 835")
+        (Scroll "-137 -7")
+        (Zoom "92")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "USB_Power_UART")))
+  (MPSSessionName "27356"))
