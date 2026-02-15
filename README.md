@@ -1,1 +1,0 @@
-# STM32G431-DevBoard
