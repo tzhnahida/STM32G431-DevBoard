@@ -1,6 +1,6 @@
 (ExpressProject "STM32G431-DevBoard"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/16/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/17/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -12,6 +12,22 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
     (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
@@ -30,39 +46,99 @@
       (FullPartName "Res.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
       (DeviceIndex "0"))
-    (FerriteBead
-      (FullPartName "FerriteBead.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FERRITEBEAD.OLB")
+    (FPC_CONN_4P
+      (FullPartName "FPC_CONN_4P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (DeviceIndex "0"))
+    (SW_SPDT
+      (FullPartName "SW_SPDT.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
+      (DeviceIndex "0"))
+    (FPC_CONN_6P
+      (FullPartName "FPC_CONN_6P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TJA1044GT/3Z
+      (FullPartName "TJA1044GT/3Z.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TJA1044.OLB")
+      (DeviceIndex "0"))
+    (W25Q64
+      (FullPartName "W25Q64.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\W25Q64.OLB")
+      (DeviceIndex "0"))
+    (AT24C256
+      (FullPartName "AT24C256.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\AT24C256.OLB")
+      (DeviceIndex "0"))
+    (RES_VAR
+      (FullPartName "RES_VAR.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+      (DeviceIndex "0"))
+    (NTC
+      (FullPartName "NTC.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+      (DeviceIndex "0"))
+    (TF_CARD_SOCKET
+      (FullPartName "TF_CARD_SOCKET.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TF.OLB")
+      (DeviceIndex "0"))
+    (TVS
+      (FullPartName "TVS.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TVS.OLB")
       (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
       (DeviceIndex "0"))
+    (XTAL-2P
+      (FullPartName "XTAL-2P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
+      (DeviceIndex "0"))
+    (XTAL-4P
+      (FullPartName "XTAL-4P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
+      (DeviceIndex "0"))
+    (Switch-2P
+      (FullPartName "Switch-2P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
+      (DeviceIndex "0"))
+    (MLT-5020
+      (FullPartName "MLT-5020.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\BUZZER.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\LED.OLB")
+      (DeviceIndex "0"))
+    (STM32G431Vx
+      (FullPartName "STM32G431VxG.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\STM32.OLB")
+      (DeviceIndex "6"))
+    (USBLC6-2
+      (FullPartName "USBLC6-2.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\USBLC6-2.OLB")
+      (DeviceIndex "0"))
+    (CMC
+      (FullPartName "CMC.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CMC.OLB")
+      (DeviceIndex "0"))
+    (CH340N
+      (FullPartName "CH340N.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CH340.OLB")
+      (DeviceIndex "0"))
+    (FerriteBead
+      (FullPartName "FerriteBead.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FERRITEBEAD.OLB")
+      (DeviceIndex "0"))
     (Inductor
       (FullPartName "Inductor.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\INDUCTOR.OLB")
-      (DeviceIndex "0"))
-    (TLV62569DBV
-      (FullPartName "TLV62569DBV.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TLV62569DBV.OLB")
-      (DeviceIndex "0"))
-    (Fuse
-      (FullPartName "Fuse.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FUSE.OLB")
-      (DeviceIndex "0"))
-    (SMBJ5V0A
-      (FullPartName "SMBJ5V0A.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SMBJ5V0A.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (TYPEC_16PIN
-      (FullPartName "TYPEC_16PIN.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TYPE-C_16PIN.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -74,22 +150,44 @@
          "G431-DevBoard")
       (Select "Design Resources"
          "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
-         "G431-DevBoard" "USB_Power_UART"))
+         "G431-DevBoard" "LED_ADC_Key"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 813"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 415 0 618"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1387 28 835")
-        (Scroll "-137 -7")
-        (Zoom "92")
+        (Placement "44 0 1 -1 -1 5 28 5 1451 28 664")
+        (Scroll "-286 -5")
+        (Zoom "72")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
-      (Page "USB_Power_UART")))
+      (Page "2.MCU_Clock_NRST"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1451 28 664")
+        (Scroll "-286 -5")
+        (Zoom "72")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "1.USB_Power_UART"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 1451 28 664")
+        (Scroll "-210 0")
+        (Zoom "85")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "LED_ADC_Key")))
   (MPSSessionName "27356"))
