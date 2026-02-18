@@ -1,6 +1,6 @@
 (ExpressProject "STM32G431-DevBoard"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/17/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/18/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -42,21 +42,12 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
-    (Res
-      (FullPartName "Res.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+    (GH1.25-2P
+      (FullPartName "GH1.25-2P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\GH1.25.OLB")
       (DeviceIndex "0"))
-    (FPC_CONN_4P
-      (FullPartName "FPC_CONN_4P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
-      (DeviceIndex "0"))
-    (SW_SPDT
-      (FullPartName "SW_SPDT.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
-      (DeviceIndex "0"))
-    (FPC_CONN_6P
-      (FullPartName "FPC_CONN_6P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+    (OFFPAGELEFT-RL
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -64,9 +55,9 @@
     (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (TJA1044GT/3Z
-      (FullPartName "TJA1044GT/3Z.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TJA1044.OLB")
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
       (DeviceIndex "0"))
     (W25Q64
       (FullPartName "W25Q64.Normal")
@@ -75,6 +66,30 @@
     (AT24C256
       (FullPartName "AT24C256.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\AT24C256.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
+      (DeviceIndex "0"))
+    (FPC_CONN_4P
+      (FullPartName "FPC_CONN_4P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (DeviceIndex "0"))
+    (TJA1044GT/3Z
+      (FullPartName "TJA1044GT/3Z.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TJA1044.OLB")
+      (DeviceIndex "0"))
+    (TYPEC_16PIN
+      (FullPartName "TYPEC_16PIN.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TYPE-C_16PIN.OLB")
+      (DeviceIndex "0"))
+    (SW_SPDT
+      (FullPartName "SW_SPDT.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
+      (DeviceIndex "0"))
+    (FPC_CONN_6P
+      (FullPartName "FPC_CONN_6P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
       (DeviceIndex "0"))
     (RES_VAR
       (FullPartName "RES_VAR.Normal")
@@ -91,10 +106,6 @@
     (TVS
       (FullPartName "TVS.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TVS.OLB")
-      (DeviceIndex "0"))
-    (CAP_NP
-      (FullPartName "CAP_NP.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
       (DeviceIndex "0"))
     (XTAL-2P
       (FullPartName "XTAL-2P.Normal")
@@ -127,18 +138,6 @@
     (CMC
       (FullPartName "CMC.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CMC.OLB")
-      (DeviceIndex "0"))
-    (CH340N
-      (FullPartName "CH340N.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CH340.OLB")
-      (DeviceIndex "0"))
-    (FerriteBead
-      (FullPartName "FerriteBead.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FERRITEBEAD.OLB")
-      (DeviceIndex "0"))
-    (Inductor
-      (FullPartName "Inductor.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\INDUCTOR.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -148,32 +147,24 @@
       (Path "Design Resources"
          "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
          "G431-DevBoard")
+      (Path "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
+         "Design Cache")
       (Select "Design Resources"
          "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
-         "G431-DevBoard" "LED_ADC_Key"))
+         "G431-DevBoard" "3.LED_ADC_Key"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 415 0 618"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 678"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1451 28 664")
-        (Scroll "-286 -5")
-        (Zoom "72")
-        (Occurrence "/"))
-      (Path
-         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
-      (Schematic "G431-DevBoard")
-      (Page "2.MCU_Clock_NRST"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1451 28 664")
-        (Scroll "-286 -5")
-        (Zoom "72")
+        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
+        (Scroll "3040 3684")
+        (Zoom "608")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -182,12 +173,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1451 28 664")
-        (Scroll "-210 0")
-        (Zoom "85")
+        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
+        (Scroll "0 552")
+        (Zoom "152")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
-      (Page "LED_ADC_Key")))
+      (Page "2.MCU_Clock_NRST_SWD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
+        (Scroll "-274 -6")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "3.LED_ADC_Key")))
   (MPSSessionName "27356"))
