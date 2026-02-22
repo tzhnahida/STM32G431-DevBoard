@@ -1,6 +1,6 @@
 (ExpressProject "STM32G431-DevBoard"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/18/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/21/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -14,7 +14,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "1")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -28,9 +28,67 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "TRUE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "TRUE")
+    (DRC_Check_Ports_Online "TRUE")
+    (DRC_Check_Unconnected_Nets_Online "TRUE")
+    (DRC_Check_Floating_Pins_Online "TRUE")
+    (DRC_Run_Electrical_Reports "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "TRUE")
+    (DRC_Check_PCB_Footprint_Property_Online "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "TRUE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "TRUE")
+    (DRC_Run_Physical_Reports "FALSE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "FALSE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DRC")
     (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\stm32g431-devboard.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -42,6 +100,84 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (BWSMA-KWE-Z001
+      (FullPartName "BWSMA-KWE-Z001.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RF.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP.OLB")
+      (DeviceIndex "0"))
+    (Inductor
+      (FullPartName "Inductor.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\INDUCTOR.OLB")
+      (DeviceIndex "0"))
+    (XTAL-4P
+      (FullPartName "XTAL-4P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
+      (DeviceIndex "0"))
+    (ESP32-C6
+      (FullPartName "ESP32-C6B.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\ESP.OLB")
+      (DeviceIndex "1"))
+    (A4950ELJTR-T
+      (FullPartName "A4950ELJTR-T.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\A4950ELJTR-T.OLB")
+      (DeviceIndex "0"))
+    (XT30_M
+      (FullPartName "XT30_M.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\XT30.OLB")
+      (DeviceIndex "0"))
+    (HS180S10B
+      (FullPartName "HS180S10B.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\HS180S10B.OLB")
+      (DeviceIndex "0"))
+    (FPC_CONN_6P
+      (FullPartName "FPC_CONN_6P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (DeviceIndex "0"))
+    (FPC_CONN_4P
+      (FullPartName "FPC_CONN_4P.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
+      (DeviceIndex "0"))
+    (ICS-43434
+      (FullPartName "ICS-43434.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\ICS-43434.OLB")
+      (DeviceIndex "0"))
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
+      (DeviceIndex "0"))
+    (PJ-320D
+      (FullPartName "PJ-320D.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\PJ-320D.OLB")
+      (DeviceIndex "0"))
+    (PCM5102A
+      (FullPartName "PCM5102A.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\PCM5102A.OLB")
+      (DeviceIndex "0"))
+    (CAP_TANTALUM
+      (FullPartName "CAP_TANTALUM.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP.OLB")
+      (DeviceIndex "0"))
+    (LP5907MFX-3.3
+      (FullPartName "LP5907MFX-3.3.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\LDO.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ESP8266EX
+      (FullPartName "ESP8266EXB.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\ESP.OLB")
+      (DeviceIndex "1"))
+    (INA219AIDCNR
+      (FullPartName "INA219AIDCNR.Normal")
+      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\INA219AIDCNR.OLB")
+      (DeviceIndex "0"))
     (GH1.25-2P
       (FullPartName "GH1.25-2P.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\GH1.25.OLB")
@@ -55,89 +191,9 @@
     (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (Res
-      (FullPartName "Res.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
-      (DeviceIndex "0"))
     (W25Q64
       (FullPartName "W25Q64.Normal")
       (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\W25Q64.OLB")
-      (DeviceIndex "0"))
-    (AT24C256
-      (FullPartName "AT24C256.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\AT24C256.OLB")
-      (DeviceIndex "0"))
-    (CAP_NP
-      (FullPartName "CAP_NP.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CAP_NP.OLB")
-      (DeviceIndex "0"))
-    (FPC_CONN_4P
-      (FullPartName "FPC_CONN_4P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
-      (DeviceIndex "0"))
-    (TJA1044GT/3Z
-      (FullPartName "TJA1044GT/3Z.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TJA1044.OLB")
-      (DeviceIndex "0"))
-    (TYPEC_16PIN
-      (FullPartName "TYPEC_16PIN.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TYPE-C_16PIN.OLB")
-      (DeviceIndex "0"))
-    (SW_SPDT
-      (FullPartName "SW_SPDT.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
-      (DeviceIndex "0"))
-    (FPC_CONN_6P
-      (FullPartName "FPC_CONN_6P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\FPC.OLB")
-      (DeviceIndex "0"))
-    (RES_VAR
-      (FullPartName "RES_VAR.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
-      (DeviceIndex "0"))
-    (NTC
-      (FullPartName "NTC.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\RES.OLB")
-      (DeviceIndex "0"))
-    (TF_CARD_SOCKET
-      (FullPartName "TF_CARD_SOCKET.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TF.OLB")
-      (DeviceIndex "0"))
-    (TVS
-      (FullPartName "TVS.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\TVS.OLB")
-      (DeviceIndex "0"))
-    (XTAL-2P
-      (FullPartName "XTAL-2P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
-      (DeviceIndex "0"))
-    (XTAL-4P
-      (FullPartName "XTAL-4P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CRYSTAL.OLB")
-      (DeviceIndex "0"))
-    (Switch-2P
-      (FullPartName "Switch-2P.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\SWITCH.OLB")
-      (DeviceIndex "0"))
-    (MLT-5020
-      (FullPartName "MLT-5020.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\BUZZER.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\LED.OLB")
-      (DeviceIndex "0"))
-    (STM32G431Vx
-      (FullPartName "STM32G431VxG.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\STM32.OLB")
-      (DeviceIndex "6"))
-    (USBLC6-2
-      (FullPartName "USBLC6-2.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\USBLC6-2.OLB")
-      (DeviceIndex "0"))
-    (CMC
-      (FullPartName "CMC.Normal")
-      (LibraryName "F:\PROJECTS\PCB\LIBRARY\SYMBOLS\CMC.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -147,24 +203,33 @@
       (Path "Design Resources"
          "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
          "G431-DevBoard")
-      (Path "Design Resources"
-         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
-         "Design Cache")
+      (Path "Outputs")
       (Select "Design Resources"
          "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
-         "G431-DevBoard" "3.LED_ADC_Key"))
+         "G431-DevBoard" "2.MCU_Clock_NRST_SWD"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 400 0 678"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 312 0 770"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
-        (Scroll "3040 3684")
-        (Zoom "608")
+        (Placement "44 0 1 -1 -1 5 28 5 1159 28 816")
+        (Scroll "-29 -2")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "5.WiFi _LCD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1159 28 816")
+        (Scroll "0 51")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -173,23 +238,34 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
-        (Scroll "0 552")
-        (Zoom "152")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1159 28 816")
+        (Scroll "0 51")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
-      (Page "2.MCU_Clock_NRST_SWD"))
+      (Page "3.ADC_Flash_EERROM_FDCAN"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1474 28 700")
-        (Scroll "-274 -6")
-        (Zoom "76")
+        (Placement "44 0 1 -1 -1 5 28 5 1159 28 816")
+        (Scroll "1192 259")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
-      (Page "3.LED_ADC_Key")))
+      (Page "4.Audio_UART_SPI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1159 28 816")
+        (Scroll "0 93")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
+      (Schematic "G431-DevBoard")
+      (Page "2.MCU_Clock_NRST_SWD")))
   (MPSSessionName "27356"))
