@@ -1,6 +1,6 @@
 (ExpressProject "STM32G431-DevBoard"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/23/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[02/24/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -99,13 +99,43 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
-    (BOM_View_Output "FALSE"))
-  (Folder "Layout")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\stm32g431-devboard.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Backannotation_TAB "0"))
+  (Folder "Layout"
+    (File ".\allegro\stm32g431-devboard.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\stm32g431-devboard.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
   (Folder "Outputs"
     (File ".\stm32g431-devboard.drc"
       (Type "Report"))
     (File ".\stm32g431-devboard.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -115,7 +145,23 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "f:\projects\pcb\github\public\stm32g431-devboard\Allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "f:\projects\pcb\github\public\stm32g431-devboard\Allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "f:\projects\pcb\github\public\stm32g431-devboard\Allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "f:\projects\pcb\github\public\stm32g431-devboard\allegro\genfeed.log")))
   (PartMRUSelector
     (Fuse
       (FullPartName "Fuse.Normal")
@@ -217,20 +263,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn")
+      (Path "Design Resources"
+         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"
+         "G431-DevBoard")
+      (Path "Layout")
       (Path "Outputs")
-      (Select "Design Resources"
-         "f:\projects\pcb\github\public\stm32g431-devboard\stm32g431-devboard.dsn"))
+      (Path "Logs")
+      (Select "Layout" ".\allegro\stm32g431-devboard.brd"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 629"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 249 0 813"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
-        (Scroll "15023 8617")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
+        (Scroll "14957 8617")
         (Zoom "1408")
         (Occurrence "/"))
       (Path
@@ -240,9 +292,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
-        (Scroll "-102 0")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
+        (Scroll "1479 1307")
+        (Zoom "368")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -251,9 +303,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
-        (Scroll "-102 0")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
+        (Scroll "-46 -7")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -262,9 +314,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
-        (Scroll "-102 0")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
+        (Scroll "-46 -7")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -273,9 +325,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
-        (Scroll "-126 0")
-        (Zoom "84")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
+        (Scroll "-46 -7")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
@@ -284,7 +336,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1271 28 675")
+        (Placement "44 0 1 -1 -1 5 28 5 1204 28 835")
         (Scroll "1139 949")
         (Zoom "232")
         (Occurrence "/"))
@@ -295,12 +347,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1271 28 675")
-        (Scroll "-102 0")
-        (Zoom "88")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1204 28 835")
+        (Scroll "-46 -7")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "F:\PROJECTS\PCB\GITHUB\PUBLIC\STM32G431-DEVBOARD\STM32G431-DEVBOARD.DSN")
       (Schematic "G431-DevBoard")
       (Page "7.Motor_Drive_M3_M4")))
-  (MPSSessionName "27356"))
+  (MPSSessionName "27356")
+  (ISPCBBASICLICENSE "false"))
