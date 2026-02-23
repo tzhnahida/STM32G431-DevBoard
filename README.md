@@ -50,5 +50,4 @@ This is a high-performance development platform based on the **STM32G431Vx** mic
 * **MCU Package**: LQFP-100
 * **Communication Support**: FDCAN, Wi-Fi 6, BLE, Zigbee, SPI, I2C, I2S
 
-## License
-This hardware project is released under the (LICENSE).
+
