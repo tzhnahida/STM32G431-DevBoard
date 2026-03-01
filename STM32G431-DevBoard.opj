@@ -316,13 +316,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 606"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 426"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1253 28 628")
-        (Scroll "534 1398")
+        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Scroll "1660 1174")
         (Zoom "368")
         (Occurrence "/"))
       (Path
@@ -332,8 +332,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1253 28 628")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Scroll "670 497")
         (Zoom "184")
         (Occurrence "/"))
       (Path
@@ -343,8 +343,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1253 28 628")
-        (Scroll "0 75")
+        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Scroll "662 491")
         (Zoom "184")
         (Occurrence "/"))
       (Path
@@ -354,8 +354,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1253 28 628")
-        (Scroll "74 2")
+        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Scroll "856 543")
         (Zoom "184")
         (Occurrence "/"))
       (Path
@@ -365,8 +365,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1253 28 628")
-        (Scroll "294 179")
+        (Placement "44 0 1 -1 -1 0 0 5 671 28 448")
+        (Scroll "720 564")
         (Zoom "192")
         (Occurrence "/"))
       (Path
@@ -376,8 +376,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1253 28 628")
-        (Scroll "730 0")
+        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Scroll "580 419")
         (Zoom "192")
         (Occurrence "/"))
       (Path
@@ -387,8 +387,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1253 28 628")
-        (Scroll "1936 670")
+        (Placement "44 0 1 -1 -1 -1 -1 5 671 28 448")
+        (Scroll "1560 1295")
         (Zoom "368")
         (Occurrence "/"))
       (Path
