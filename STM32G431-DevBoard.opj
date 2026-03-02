@@ -316,12 +316,12 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 302 0 426"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 303 0 606"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Placement "44 0 1 -1 -1 5 28 5 1150 28 628")
         (Scroll "1660 1174")
         (Zoom "368")
         (Occurrence "/"))
@@ -332,7 +332,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Placement "44 0 1 -1 -1 5 28 5 1150 28 628")
         (Scroll "670 497")
         (Zoom "184")
         (Occurrence "/"))
@@ -343,7 +343,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Placement "44 0 1 -1 -1 5 28 5 1150 28 628")
         (Scroll "662 491")
         (Zoom "184")
         (Occurrence "/"))
@@ -354,8 +354,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
-        (Scroll "856 543")
+        (Placement "44 0 1 -1 -1 5 28 5 1150 28 628")
+        (Scroll "720 543")
         (Zoom "184")
         (Occurrence "/"))
       (Path
@@ -365,7 +365,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 671 28 448")
+        (Placement "44 0 1 -1 -1 0 0 5 1150 28 628")
         (Scroll "720 564")
         (Zoom "192")
         (Occurrence "/"))
@@ -376,7 +376,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 671 28 448")
+        (Placement "44 0 1 -1 -1 5 28 5 1150 28 628")
         (Scroll "580 419")
         (Zoom "192")
         (Occurrence "/"))
@@ -387,7 +387,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 671 28 448")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1150 28 628")
         (Scroll "1560 1295")
         (Zoom "368")
         (Occurrence "/"))
